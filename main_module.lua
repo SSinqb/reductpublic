@@ -3,7 +3,7 @@ local reductmod = {
     connections = {},
     files = {
         "reduct/",
-        "reduct/config",s
+        "reduct/config",
     }
 }
 reductmod.__index = reductmod
