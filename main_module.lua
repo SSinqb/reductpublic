@@ -42,7 +42,9 @@ end
 
 function reductmod:downloadfiles()
     if not isfolder("reduct") then
-        makefolder(reductmod.files)
+        for i, v in next, reductmod.files do
+            makefolder(v)
+        end
     end
 end
 
